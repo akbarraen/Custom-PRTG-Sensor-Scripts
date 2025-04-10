@@ -77,6 +77,6 @@ SimpliVity Space Usage is at 75%, All OVCs are ALIVE, Arbiter Connected, All dis
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE). See the `LICENSE` file for details.
+This project is licensed under the [MIT License](./../LICENSE). See the `LICENSE` file for details.
 
 ---
