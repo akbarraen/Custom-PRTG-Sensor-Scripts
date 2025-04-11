@@ -20,6 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Set up Python
@@ -35,6 +36,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/akbarraen/Custom-PRTG-Sensor-Scripts.git
+          git pull origin main --rebase
           git add README.md
           git diff-index --quiet HEAD || git commit -m "Automated README section update"
           git push
