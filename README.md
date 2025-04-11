@@ -4,45 +4,30 @@ Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides 
 
 <!-- SENSOR LIST START -->
 Sensor List:
-- **[Nutanix:](./Nutanix)**  
-  - *PRTG_NutanixAlertsAndHealthSensor.ps1* – Monitors cluster alerts and calculates a cluster health score.
-- **[SimpliVity:](./SimpliVity)**  
-  - *PRTG-Simplivity-Health.ps1* – Monitors cluster health, storage usage, and arbiter connectivity for HPE SimpliVity clusters.
+- **[.git:](./.git)**
+- **[Nutanix:](./Nutanix)**
+  - **[Nutanix](./Nutanix/)**
+    - *PRTG_NutanixAlertsAndHealthSensor.ps1*
+- **[SimpliVity:](./SimpliVity)**
+  - **[SimpliVity](./SimpliVity/)**
+    - *PRTG-Simplivity-Health.ps1*
+
 <!-- SENSOR LIST END -->
 ---
 ## Repository Structure
 <!-- REPO STRUCTURE START -->
-The repository is organized by environment, with each subfolder containing:
-- The sensor script(s)
-- A dedicated README file with details on installation, configuration, and usage
 ```
 Custom-PRTG-Sensor-Scripts/
-│
+├── .git/
+│   ├── hooks/
+│   ├── info/
+│   ├── logs/
+│   ├── objects/
+│   ├── refs/
 ├── Nutanix/
-│   ├── AlertsAndHealth/
-│   │   ├── PRTG_NutanixAlertsAndHealthSensor.ps1
-│   │   └── README.md
-│   ├── <Future-Script-Folder-1>/
-│   │   ├── <Script1.ps1>
-│   │   └── README.md
-│   └── <Future-Script-Folder-2>/
-│       ├── <Script2.ps1>
-│       └── README.md
-│
 ├── SimpliVity/
-│   ├── HealthMonitoring/
-│   │   ├── PRTG-Simplivity-Health.ps1
-│   │   └── README.md
-│   └── <Future-Script-Folder>/
-│       ├── <Script.ps1>
-│       └── README.md
-│
-└── VMware/
-    ├── <Future-Script-Folder>/
-    │   ├── <Script.ps1>
-    │   └── README.md
-    └── README.md (Optional overview specific to VMware scripts)
 ```
+
 <!-- REPO STRUCTURE END -->
 
 ## Getting Started
