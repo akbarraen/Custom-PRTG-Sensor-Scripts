@@ -5,9 +5,9 @@ Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides 
 <!-- SENSOR LIST START -->
 Sensor List:
 - **[Nutanix:](./Nutanix)**
-  - *PRTG_NutanixAlertsAndHealthSensor.ps1*
+  - *PRTG_NutanixAlertsAndHealthSensor.ps1* - PRTG Custom Sensor for monitoring Nutanix Cluster Alerts and derived Cluster Health.
 - **[SimpliVity:](./SimpliVity)**
-  - *PRTG-Simplivity-Health.ps1*
+  - *PRTG-Simplivity-Health.ps1* - Checks SimpliVity Cluster Health, Storage Usage, and Arbiter Status.
 
 <!-- SENSOR LIST END -->
 ---
