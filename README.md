@@ -27,6 +27,7 @@ Custom-PRTG-Sensor-Scripts/
 ├── VMware/
 │   ├── GetNSXAlarms/
 │   │   ├── Get-NSXAlarms.ps1
+│   │   └── README.md
 ```
 
 <!-- REPO STRUCTURE END -->
