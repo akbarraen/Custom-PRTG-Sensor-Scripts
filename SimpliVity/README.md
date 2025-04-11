@@ -31,7 +31,7 @@ To use this script, ensure the following requirements are met:
    Install-Module -Name PRTGResultSet
    Install-Module -Name HPESimpliVity
    ```
-3. Place the script file (`PRTG-Simplivity-CustomSensor.ps1`) in a directory accessible by the PRTG probe system.
+3. Place the script file (`PRTG-Simplivity-Health.ps1`) in a directory accessible by the PRTG probe system.
 
 ## Usage
 
@@ -41,7 +41,7 @@ To use this script, ensure the following requirements are met:
 2. Navigate to the device where you want to add the sensor.
 3. Click **Add Sensor** and select **EXE/Script Advanced**.
 4. Configure the sensor:
-   - **EXE/Script File**: Select `PRTG-Simplivity-CustomSensor.ps1`.
+   - **EXE/Script File**: Select `PRTG-Simplivity-Health.ps1`.
    - **Parameters**: You can pass parameters (if needed) directly through the PRTG sensor settings.
    - **Timeout**: Ensure the script execution time is within the timeout period configured in PRTG.
 5. Save the sensor. It will now execute and report the results for SimpliVity monitoring.
@@ -55,7 +55,7 @@ To use this script, ensure the following requirements are met:
 
 Example usage (PowerShell):
 ```powershell
-.\PRTG-Simplivity-CustomSensor.ps1 -ComputerName "OVC.example.com" -critThreshold 85
+.\PRTG-Simplivity-Health.ps1 -ComputerName "OVC.example.com" -critThreshold 85
 ```
 
 ## Output
