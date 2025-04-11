@@ -64,11 +64,14 @@ Your contributions are vital to the success of this project. Whether it’s new 
 ---
 ## License
 This project is licensed under the [LICENSE](./LICENSE) license.
+
 ---
 
 ## Support
 If you have any questions, issues, or feedback regarding the sensor scripts or documentation, please open an issue in this repository.
 
 ---
+
 This README is designed to evolve with the project. As new sensor scripts for additional technologies are added, the document will be maintained either manually or through automation tools to ensure it consistently provides an up-to-date overview of capabilities. Suggestions for automating this process are welcome.
+
 ---
