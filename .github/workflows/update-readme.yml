@@ -8,6 +8,7 @@ on:
       - '.github/workflows/update-readme.yml'
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch: # Add this line to enable manual runs
 
 permissions:
   contents: write
