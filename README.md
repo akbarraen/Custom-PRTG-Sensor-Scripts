@@ -4,13 +4,10 @@ Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides 
 
 <!-- SENSOR LIST START -->
 Sensor List:
-- **[.git:](./.git)**
 - **[Nutanix:](./Nutanix)**
-  - **[Nutanix](./Nutanix/)**
-    - *PRTG_NutanixAlertsAndHealthSensor.ps1*
+  - *PRTG_NutanixAlertsAndHealthSensor.ps1*
 - **[SimpliVity:](./SimpliVity)**
-  - **[SimpliVity](./SimpliVity/)**
-    - *PRTG-Simplivity-Health.ps1*
+  - *PRTG-Simplivity-Health.ps1*
 
 <!-- SENSOR LIST END -->
 ---
@@ -18,14 +15,12 @@ Sensor List:
 <!-- REPO STRUCTURE START -->
 ```
 Custom-PRTG-Sensor-Scripts/
-├── .git/
-│   ├── hooks/
-│   ├── info/
-│   ├── logs/
-│   ├── objects/
-│   ├── refs/
 ├── Nutanix/
+│   ├── PRTG_NutanixAlertsAndHealthSensor.ps1
+│   ├── README.md
 ├── SimpliVity/
+│   ├── PRTG-Simplivity-Health.ps1
+│   ├── README.md
 ```
 
 <!-- REPO STRUCTURE END -->
