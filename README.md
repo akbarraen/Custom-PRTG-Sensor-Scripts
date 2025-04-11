@@ -8,6 +8,9 @@ Sensor List:
   - *PRTG_NutanixAlertsAndHealthSensor.ps1* - PRTG Custom Sensor for monitoring Nutanix Cluster Alerts and derived Cluster Health.
 - **[SimpliVity:](./SimpliVity)**
   - *PRTG-Simplivity-Health.ps1* - Checks SimpliVity Cluster Health, Storage Usage, and Arbiter Status.
+- **[VMware:](./VMware)**
+  - **[GetNSXAlarms](./VMware/GetNSXAlarms)**
+    - *Get-NSXAlarms.ps1* - Retrieves open alarms from NSX-T using curl and outputs them in a PRTG sensor format.
 
 <!-- SENSOR LIST END -->
 ---
@@ -21,6 +24,9 @@ Custom-PRTG-Sensor-Scripts/
 ├── SimpliVity/
 │   ├── PRTG-Simplivity-Health.ps1
 │   ├── README.md
+├── VMware/
+│   ├── GetNSXAlarms/
+│   │   ├── Get-NSXAlarms.ps1
 ```
 
 <!-- REPO STRUCTURE END -->
