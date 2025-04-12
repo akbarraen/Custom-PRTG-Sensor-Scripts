@@ -1,6 +1,8 @@
+<div style="font-size:9px;">
+
 # Custom PRTG Sensor Scripts
 
-Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides a collection of PowerShell-based custom sensor scripts for [PRTG Network Monitor](https://www.paessler.com/prtg) that are tailored to monitor health and performance across various hyper-converged environments including Nutanix, HPE SimpliVity, and (in future) VMware.
+Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides a collection of PowerShell-based custom sensor scripts for [PRTG Network Monitor](https://www.paessler.com/prtg) that are tailored to monitor health and performance across various hyper-converged environments including Nutanix, HPE SimpliVity, and VMware.
 
 <!-- SENSOR LIST START -->
 Sensor List:
@@ -62,3 +64,4 @@ If you have any questions, issues, or feedback regarding the sensor scripts or d
 This README is designed to evolve with the project. As new sensor scripts for additional technologies are added, the document will be maintained either manually or through automation tools to ensure it consistently provides an up-to-date overview of capabilities. Suggestions for automating this process are welcome.
 
 ---
+</div>
