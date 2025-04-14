@@ -11,6 +11,7 @@ Sensor List:
 - **[SimpliVity:](./SimpliVity)**
   - *PRTG-Simplivity-Health.ps1* - Checks SimpliVity Cluster Health, Storage Usage, and Arbiter Status.
 - **[VMware:](./VMware)**
+  - *SRMTest.ps1* - To Monitor Replication Health Of VMs Configured On SRM
   - **[GetNSXAlarms](./VMware/GetNSXAlarms)**
     - *Get-NSXAlarms.ps1* - Retrieves open alarms from NSX-T using curl and outputs them in a PRTG sensor format.
 
@@ -27,6 +28,7 @@ Custom-PRTG-Sensor-Scripts/
 │   ├── PRTG-Simplivity-Health.ps1
 │   ├── README.md
 ├── VMware/
+│   ├── SRMTest.ps1
 │   ├── GetNSXAlarms/
 │   │   ├── Get-NSXAlarms.ps1
 │   │   └── README.md
