@@ -13,7 +13,6 @@ Sensor List:
 - **[VMware:](./VMware)**
   - **[GetNSXAlarms](./VMware/GetNSXAlarms)**
     - *Get-NSXAlarms.ps1* - Retrieves open alarms from NSX-T using curl and outputs them in a PRTG sensor format.
-  - **[SRM](./VMware/SRM)**
 
 <!-- SENSOR LIST END -->
 ---
@@ -31,7 +30,6 @@ Custom-PRTG-Sensor-Scripts/
 │   ├── GetNSXAlarms/
 │   │   ├── Get-NSXAlarms.ps1
 │   │   └── README.md
-│   ├── SRM/
 ```
 
 <!-- REPO STRUCTURE END -->
