@@ -15,6 +15,8 @@ Sensor List:
     - *Get-NSXAlarms.ps1* - Retrieves open alarms from NSX-T using curl and outputs them in a PRTG sensor format.
   - **[VRMS-VMReplicationHealth-Sensor](./VMware/VRMS-VMReplicationHealth-Sensor)**
     - *Monitor_VMReplication.ps1* - Monitor Replication Health Of VMs Configured On VMware Live Recovery (vSphere Replication)
+- **[Zerto:](./Zerto)**
+  - *Zerto-Monitoring-Sensor.ps1* - PRTG Custom Sensor for Monitoring Zerto Environment via Zerto API using Curl
 
 <!-- SENSOR LIST END -->
 ---
@@ -35,6 +37,8 @@ Custom-PRTG-Sensor-Scripts/
 │   ├── VRMS-VMReplicationHealth-Sensor/
 │   │   ├── Monitor_VMReplication.ps1
 │   │   └── README.md
+├── Zerto/
+│   ├── Zerto-Monitoring-Sensor.ps1
 ```
 
 <!-- REPO STRUCTURE END -->
