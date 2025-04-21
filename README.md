@@ -6,6 +6,8 @@ Welcome to the **Custom PRTG Sensor Scripts** repository. This project provides 
 
 <!-- SENSOR LIST START -->
 Sensor List:
+- **[HyperFlex:](./HyperFlex)**
+  - *HyperFlex-PRTG-HealthCheckSensor.ps1* - PRTG Custom Sensor for Monitoring HyperFlex Cluster Using API
 - **[Nutanix:](./Nutanix)**
   - *PRTG_NutanixAlertsAndHealthSensor.ps1* - PRTG Custom Sensor for monitoring Nutanix Cluster Alerts and derived Cluster Health.
 - **[SimpliVity:](./SimpliVity)**
@@ -24,6 +26,8 @@ Sensor List:
 <!-- REPO STRUCTURE START -->
 ```
 Custom-PRTG-Sensor-Scripts/
+├── HyperFlex/
+│   ├── HyperFlex-PRTG-HealthCheckSensor.ps1
 ├── Nutanix/
 │   ├── PRTG_NutanixAlertsAndHealthSensor.ps1
 │   ├── README.md
