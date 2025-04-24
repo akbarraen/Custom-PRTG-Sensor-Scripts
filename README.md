@@ -28,6 +28,7 @@ Sensor List:
 Custom-PRTG-Sensor-Scripts/
 ├── HyperFlex/
 │   ├── HyperFlex-PRTG-HealthCheckSensor.ps1
+│   ├── README.md
 ├── Nutanix/
 │   ├── PRTG_NutanixAlertsAndHealthSensor.ps1
 │   ├── README.md
