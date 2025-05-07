@@ -19,8 +19,6 @@ Sensor List:
     - *Monitor_VMReplication.ps1* - Monitor Replication Health Of VMs Configured On VMware Live Recovery (vSphere Replication)
 - **[Zerto:](./Zerto)**
   - *Zerto-Monitoring-Sensor.ps1* - PRTG Custom Sensor for Monitoring Zerto Environment via Zerto API using Curl
-- **[raen:](./raen)**
-  - *test.ps1*
 
 <!-- SENSOR LIST END -->
 ---
@@ -47,8 +45,6 @@ Custom-PRTG-Sensor-Scripts/
 ├── Zerto/
 │   ├── Zerto-Monitoring-Sensor.ps1
 │   ├── README.md
-├── raen/
-│   ├── test.ps1
 ```
 
 <!-- REPO STRUCTURE END -->
