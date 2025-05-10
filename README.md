@@ -43,6 +43,7 @@ Custom-PRTG-Sensor-Scripts/
 │   │   └── README.md
 │   ├── HCX-HealthCheck/
 │   │   ├── HCX-PRTG-HealthCheckSensor.ps1
+│   │   └── README.md
 │   ├── VRMS-VMReplicationHealth-Sensor/
 │   │   ├── Monitor_VMReplication.ps1
 │   │   └── README.md
