@@ -15,6 +15,8 @@ Sensor List:
 - **[VMware:](./VMware)**
   - **[GetNSXAlarms](./VMware/GetNSXAlarms)**
     - *Get-NSXAlarms.ps1* - Retrieves open alarms from NSX-T using curl and outputs them in a PRTG sensor format.
+  - **[HCX-HealthCheck](./VMware/HCX-HealthCheck)**
+    - *HCX-PRTG-HealthCheckSensor.ps1* - Retrieves alerts from HCX Cloud Connector or HCX Cloud Manager and monitors ServiceMesh and Interconnect status.
   - **[VRMS-VMReplicationHealth-Sensor](./VMware/VRMS-VMReplicationHealth-Sensor)**
     - *Monitor_VMReplication.ps1* - Monitor Replication Health Of VMs Configured On VMware Live Recovery (vSphere Replication)
 - **[Zerto:](./Zerto)**
@@ -39,6 +41,8 @@ Custom-PRTG-Sensor-Scripts/
 │   ├── GetNSXAlarms/
 │   │   ├── Get-NSXAlarms.ps1
 │   │   └── README.md
+│   ├── HCX-HealthCheck/
+│   │   ├── HCX-PRTG-HealthCheckSensor.ps1
 │   ├── VRMS-VMReplicationHealth-Sensor/
 │   │   ├── Monitor_VMReplication.ps1
 │   │   └── README.md
